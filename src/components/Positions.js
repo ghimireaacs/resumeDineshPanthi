@@ -88,7 +88,7 @@ export function education(){
     console.log(educations);
 }
 
-    export function honors={
+    export function honors(){
         const awards=[
             {id:1,
             year:2014,
