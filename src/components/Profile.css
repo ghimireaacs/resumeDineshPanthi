@@ -1,0 +1,16 @@
+.profileHome{
+    background-color: yellow;
+    height: 10%;
+    width: 20%;
+    min-height: 300px;
+}
+
+.profile-background{
+    background-color: blueviolet;
+
+}
+.profile-picture{
+    width:70px;
+    background-repeat: no-repeat;
+    
+}

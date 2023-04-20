@@ -1,13 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Navbar from './components/Layout';
 import reportWebVitals from './reportWebVitals';
+import Intro from './components/Intro'
+import Profile from './components/Profile';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Navbar />
+    
+    <div className='profileIntro'>
+      <div className='profileIndex'>
+        <Profile />
+      </div>
+      <Profile />
+      <Intro />
+    </div>
   </React.StrictMode>
 );
 
