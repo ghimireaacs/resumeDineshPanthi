@@ -1,5 +1,5 @@
 import {academicPosition} from "./Positions";
-import "./academicPosition.css";
+import "./position.css";
 
 const Academics = () => {
   const positions = academicPosition();
@@ -9,9 +9,9 @@ const Academics = () => {
       <h2>Academic Positions</h2>
       {positions.map(position => (
         <div key={position.id} className="position">
-          <p>{position.title}</p>
-          <p>{position.college}</p>
-          <p>{position.started} - {position.ended}</p>
+          <p className="position-title">{position.title}</p>
+          <p className="position-college">{position.college}</p>
+          <p className="position-period">{position.started} - {position.ended}</p>
         </div>
       ))}
     </div>
