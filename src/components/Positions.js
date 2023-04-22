@@ -8,41 +8,41 @@ export function academicPosition(){
         {id:2,
         ended:2014,
         started:2011,
-        title:"Associate Professor",
-        college:"Nepal Sanskrit University"},
+        title:"Visiting Faculty",
+        college:"School of Science and School of Engineering, Kathmandu University, Dhulikhel, Nepal"},
         {id:3,
         ended:1998,
         started:1996,
-        title:"Associate Professor",
-        college:"Nepal Sanskrit University"},
+        title:"Campus Chief",
+        college:"Gupteswor Multiple Campus, Tribhuvan University, Parbat District, Nepal"},
         {id:4,
         ended:2002,
         started:2000,
-        title:"Associate Professor",
-        college:"Nepal Sanskrit University"},
+        title:"Campus Chief",
+        college:"Harihar Sanskrit Vidypeeth, Nepal Sanskrit University"},
         {id:5,
         ended:1995,
         started:1994,
-        title:"Associate Professor",
-        college:"Nepal Sanskrit University"},
+        title:"Lecturer",
+        college:"Gupeshwor Multiple Campus (Affiliated to Tribhuwan, University) Kushma, Parbat, Nepal"},
         {id:6,
         ended:1999,
         started:1994,
-        title:"Associate Professor",
-        college:"Nepal Sanskrit University"},
+        title:"Lecturer",
+        college:"Harihar Sanskrit Vidyapeeth, Nepal Sanskrit University, Arghakhanchi District, Nepal"},
         {id:7,
         ended:1991,
         started:1989,
-        title:"Associate Professor",
-        college:"Nepal Sanskrit University"},
+        title:"Head of Department of Mathematics",
+        college:"Gyan Mandir English High School, Balazu, Kathmandu."},
         {id:8,
         ended:1987,
         started:1985,
-        title:"Associate Professor",
-        college:"Nepal Sanskrit University"},
+        title:"Teacher",
+        college:"Siddhartha Vanasthali High school, Balazu, Kathmandu, Nepal."},
                 
     ]
-    console.log(positions)
+    return positions;
 }
 
 export function education(){
@@ -53,10 +53,10 @@ export function education(){
         subject:"Ph.D. in Mathematics",
         university:"Kathmandu University, School of Science"},
         {id:2,
-        title:"",
-        year:"",
-        subject:"",
-        university:""},
+        title:"M.Phil",
+        year:"2009",
+        subject:"M. Phil. in Mathematics",
+        university:"Kathmandu University, School of Science"},
         {id:3,
         title:"",
         year:"",
@@ -85,7 +85,7 @@ export function education(){
         
 
     ]
-    console.log(educations);
+    return educations;
 }
 
     export function honors(){
@@ -121,7 +121,7 @@ export function education(){
             description:""},
             
         ]
-        console.log(awards);
+        return awards;
     }
 
 ;

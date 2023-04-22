@@ -5,6 +5,9 @@ import Navbar from './components/Layout';
 import reportWebVitals from './reportWebVitals';
 import Intro from './components/Intro'
 import Profile from './components/Profile';
+import Academics from './components/Academic';
+import Education from './components/Education';
+import Honors from './components/Honor';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,7 +20,11 @@ root.render(
       </div>
       <Profile />
       <Intro />
+      <Academics />
     </div>
+    <Academics />
+    <Education />
+    <Honors />
   </React.StrictMode>
 );
 
