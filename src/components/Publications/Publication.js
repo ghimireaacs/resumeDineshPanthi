@@ -1,26 +1,26 @@
-import { publicationsData } from "./publicationData";
-import "./publication.css";
+import { journalsData } from "./publicationData";
+import "./journal.css";
 
-const Publication = () => {
-  const publications = publicationsData();
+const Journals = () => {
+  const journals = journalsData();
 
   return (
-    <div className="publications">
-      <h2>Publications</h2>
-      {publications.map((publication) => (
-        <div key={publication.id} className="publication">
-          <p className="publication-year" href={publication.url}>
-            {publication.year}
+    <div className="journal">
+      <h2>journals</h2>
+      {journals.map((journal) => (
+        <div key={journal.id} className="journal">
+          <p className="journal-year" href={journal.url}>
+            {journal.year}
           </p>
-          <p className="publication-title">{publication.title}</p>
-          <p className="publication-type">{publication.type}</p>
-          <p className="publication-authors">{publication.authors}</p>
-          <p className="publication-citation">{publication.citation}</p>
-          {/* <p className="publication-url">{publication.url}</p> */}
+          <p className="journal-title">{journal.title}</p>
+          <p className="journal-type">{journal.type}</p>
+          <p className="journal-authors">{journal.authors}</p>
+          <p className="journal-citation">{journal.citation}</p>
+          {/* <p className="journal-url">{journal.url}</p> */}
         </div>
       ))}
     </div>
   );
 };
 
-export default Publication;
+export default Journals;

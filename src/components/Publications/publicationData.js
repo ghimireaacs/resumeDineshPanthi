@@ -1,250 +1,419 @@
-export function publicationsData() {
-  const publications = [
+export function journalsData() {
+  const journals = [
+    {
+      id: 1,
+      Title:
+        "Fixed Point Theorems and Generalizations of Dislocated Metric Spaces",
+      Authors: "P. S. Kumari, Ch. V. Ramana, K. Zoto and D. Panthi",
+      Citation:
+        "Indian Journal of Science and Technology , 8 (2015), 154 -158.",
+      "Publication Year": "Publication year: 2015",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/fixed-point-theorems-generalizations-dislocated-metric-spaces/",
+    },
+    {
+      id: 2,
+      Title: "The solution of non-linear equations",
+      Authors: "P. R. Chaudhary and D. Panthi",
+      Citation: "e pages , 1(3),(2014), 37- 41",
+      "Publication Year": "Publication year: 2018",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/solution-non-linear-equations/",
+    },
+    {
+      id: 3,
+      Title:
+        "Some Common Fixed Point Theorems Satisfying Meir-Keeler Type Contractive Conditions",
+      Authors: "D. Panthi",
+      Citation:
+        "Open Journal of Discrete Mathematics, Volume 8, No. 2(2018), Pages 35-47",
+      "Publication Year": "Publication year: 2018",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/some-common-fixed-point-theorems-satisfying-meir-keeler-type-contractive-conditions/",
+    },
+    {
+      id: 4,
+      Title:
+        "Some Fixed Point Results for Single and Two Maps in Complete Metric Space",
+      Authors: "D. Panthi and P. Sumati Kumari",
+      Citation:
+        "International Journal of Mathematics and Mathematical Sciences 1(2), 2015, 59-69.",
+      "Publication Year": "Publication year: 2015",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/fixed-point-results-single-two-maps-complete-metric-space/",
+    },
+    {
+      id: 5,
+      Title: "A Note on Brouwer\u2019s Fixed Point Theorem",
+      Authors: "K. Jha and D.Panthi",
+      Citation: "Research Journal, 5(2) (2011), 1-12",
+      "Publication Year": "Publication year: 2011",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/note-brouwers-fixed-point-theorem/",
+    },
+    {
+      id: 6,
+      Title: "Some fixed point Results in dislocated metric space",
+      Authors: "D. Panthi",
+      Citation:
+        "American Journal of Engineering Research , volume 6, Issue 5, pages 281-286",
+      "Publication Year": "Publication year: 2017",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/some-fixed-point-results-in-dislocated-metric-space/",
+    },
+    {
+      id: 7,
+      Title:
+        "Fixed Point Results in Cyclic Contractions of Generalized Dislocated Metric Spaces",
+      Authors: "D. Panthi",
+      Citation: "Annals of Pure and Applied Math., 5(2),(2014), 192-197.",
+      "Publication Year": "Publication year: 2014",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/fixed-point-results-cyclic-contractions-generalized-dislocated-metric-spaces/",
+    },
     {
       id: 8,
-      year: "2017",
-      title: "Fixed point results in dislocated metric space",
-      url: "https://www.academia.edu/34215841/Fixed_point_results_in_dislocated_metric_space",
-      type: "Journal paper",
-      authors: ["D. Panthi"],
-      citation:
-        "International Journal of Pure and Applied Mathematics, Vol. 116 No. 24 2017, 235-242",
+      Title: "Topology and Fixed Point Results",
+      Authors: "D. Panthi, P.K. Jha and K. Jha",
+      Citation: "Bhujang,Bulletin of Kabhre Multiple Campus,17, 84-89",
+      "Publication Year": "Publication year: 2013",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/695/",
     },
     {
       id: 9,
-      year: "2018",
-      title:
-        "Common fixed point theorems for single and multi-valued maps in dislocated metric spaces",
-      url: "https://www.researchgate.net/publication/324009333_Common_fixed_point_theorems_for_single_and_multi-valued_maps_in_dislocated_metric_spaces",
-      type: "Journal paper",
-      authors: ["D. Panthi", "K. Jha"],
-      citation:
-        "Acta Mathematica Scientia, Vol. 38, Issue 2, 2018, pp. 467-476",
+      Title:
+        "Some applications via fixed point results in partially ordered Sb-metric spaces",
+      Authors:
+        "GNV Kishore, KPR Rao, D Panthi , B Srinuvasa Rao and S Satyanaraya",
+      Citation: "Fixed Point Theory and Applications (2017) 2017:10 ",
+      "Publication Year": "Publication year: 2017",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/applications-via-fixed-point-results-partially-ordered-sb-metric-spaces/",
     },
     {
       id: 10,
-      year: "2016",
-      title:
-        "Common fixed point theorems for four maps in dislocated metric space",
-      url: "https://www.researchgate.net/publication/305399437_Common_fixed_point_theorems_for_four_maps_in_dislocated_metric_space",
-      type: "Journal paper",
-      authors: ["D. Panthi", "K. Subedi"],
-      citation:
-        "International Journal of Mathematics and Mathematical Sciences, vol. 2016, Article ID 8364641, 10 pages",
+      Title:
+        "Fixed Point Theorems for Cyclic Contractions of Dislocated Metric Space",
+      Authors: "D. Panthi",
+      Citation: "SOP Transactions on Applied Mathematics, 1(1),(2014), 71-75.",
+      "Publication Year": "Publication year: 2014",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/fixed-point-theorems-cyclic-contractions-dislocated-metric-space/",
     },
     {
       id: 11,
-      year: "2015",
-      title: "Some common fixed point theorems in Menger PM-spaces",
-      url: "https://www.researchgate.net/publication/281943764_Some_common_fixed_point_theorems_in_Menger_PM-spaces",
-      type: "Journal paper",
-      authors: ["D. Panthi", "K. Jha", "P. K. Jha"],
-      citation:
-        "Kragujevac Journal of Mathematics, Vol. 39, No. 3 (2015), 325-333",
+      Title:
+        "An integral type common fixed point theorem in dislocated metric space",
+      Authors: "D. Panthi",
+      Citation:
+        "Kathmandu University Journal of Science, engineering and technology, 12 (II) (2016), 60-70.",
+      "Publication Year": "Publication year: 2016",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/integral-type-common-fixed-point-theorem-dislocated-metric-space/",
     },
     {
       id: 12,
-      year: "2017",
-      title:
-        "Common fixed point theorems in complex valued dislocated metric spaces",
-      url: "https://www.researchgate.net/publication/320731156_Common_fixed_point_theorems_in_complex_valued_dislocated_metric_spaces",
-      type: "Journal paper",
-      authors: ["D. Panthi", "K. Jha"],
-      citation: "Acta Universitatis Apulensis, No. 43 (2017), 135-144",
+      Title: "A study on Fixed point Theorems of Asymptotic contractions",
+      Authors: "D. Panthi and K. Jha",
+      Citation:
+        "The Nepali Mathematical Sciences Report, 33 (1&2) (2014), 17-26",
+      "Publication Year": "Publication year: 2014",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/study-fixed-point-theorems-asymptotic-contractions/",
     },
     {
       id: 13,
-      year: "2018",
-      title:
-        "Some common fixed point theorems for weakly compatible maps in dislocated metric spaces",
-      url: "https://www.researchgate.net/publication/329251582_Some_common_fixed_point_theorems_for_weakly_compatible_maps_in_dislocated_metric_spaces",
-      type: "Journal paper",
-      authors: ["D. Panthi", "K. Jha"],
-      citation: "Acta Universitatis Apulensis, No. 56 (2018), 51-62",
-    },
-    {
-      id: 13,
-      year: "2014",
-      title: "Convergence and fixed point results in symmetric spaces",
-      url: "https://dineshpanthi.science/pubs/convergence-and-fixed-point-results-in-symmetric-spaces/",
-      type: "Journal paper",
-      authors: ["I.R. Sarma", "J.M. Rao", "P.S. Kumari", "D. Panthi"],
-      citation: "Applied Mathematics, 5(4)(2014), 713-720.",
+      Title: "Fixed Point, Kutastha Vindu and Vedant Philosophy",
+      Authors: "Pavan K. Jha, D. Panthi and K. Jha",
+      Citation:
+        "International Journal of Sanskrit Research, 2(6) (2016), 167-169",
+      "Publication Year": "Publication year: 2016",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/fixed-point-kutastha-vindu-vedant-philosophy/",
     },
     {
       id: 14,
-      year: "2014",
-      title:
-        "Common fixed point results in complex valued metric spaces using weakly commuting maps",
-      url: "https://dineshpanthi.science/pubs/common-fixed-point-results-in-complex-valued-metric-spaces-using-weakly-commuting-maps/",
-      type: "Journal paper",
-      authors: ["D. Panthi"],
-      citation:
-        "International Journal of Mathematics and Soft Computing, 4(2)(2014), 57-66.",
+      Title: "Completion of a Dislocated Metric Space",
+      Authors: "P. S. Kumari, I. R. Sarma, J. M. Rao and D. Panthi",
+      Citation: "Abstract and applied analysis, 5, (2014)",
+      "Publication Year": "Publication year: 2014",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/completion-dislocated-metric-space/",
     },
     {
       id: 15,
-      year: "2015",
-      title:
-        "A common fixed point result for a pair of weakly compatible maps in complex valued metric spaces",
-      url: "https://dineshpanthi.science/pubs/a-common-fixed-point-result-for-a-pair-of-weakly-compatible-maps-in-complex-valued-metric-spaces/",
-      type: "Journal paper",
-      authors: ["D. Panthi"],
-      citation:
-        "International Journal of Mathematical Archive, 6(3)(2015), 161-168.",
+      Title:
+        "Some Common Fixed Point Theorems for Four mappings in Dislocated Metric Space",
+      Authors: "D. Panthi and K. Subedi",
+      Citation: "Advances in Pure Mathematics, 6 (2016), 695-712.",
+      "Publication Year": "Publication year: 2016",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/common-fixed-point-theorems-four-mappings-dislocated-metric-space/",
     },
     {
       id: 16,
-      year: "2015",
-      title:
-        "Common fixed point results for two pairs of weakly commuting maps in complex valued metric spaces",
-      url: "https://dineshpanthi.science/pubs/common-fixed-point-results-for-two-pairs-of-weakly-commuting-maps-in-complex-valued-metric-spaces/",
-      type: "Journal paper",
-      authors: ["D. Panthi"],
-      citation:
-        "International Journal of Mathematical Archive, 6(7)(2015), 34-42.",
+      Title: "Convergence axioms on dislocated symmetric spaces",
+      Authors: "I.R. Sarma, J.M. Rao, P.S. Kumari and D. Panthi ",
+      Citation: "Abstract and applied analysis, 7 (2014) ",
+      "Publication Year": "Publication year: 2014",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/convergence-axioms-dislocated-symmetric-spaces/",
     },
     {
       id: 17,
-      year: "2015",
-      title:
-        "Fixed point results for compatible maps in dislocated metric spaces",
-      url: "https://dineshpanthi.science/pubs/fixed-point-results-for-compatible-maps-in-dislocated-metric-spaces/",
-      type: "Journal paper",
-      authors: ["D. Panthi"],
-      citation:
-        "International Journal of Pure and Applied Mathematics, 103(1)(2015), 57-69.",
+      Title:
+        "Some Integral Type Fixed Point Theorems in Dislocated Metric Space",
+      Authors: "D. Panthi and P. Sumati Kumari",
+      Citation:
+        "American Journal of Computational Mathematics, 6 (2) (2016), 88-97.",
+      "Publication Year": "Publication year: 2016",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/integral-type-fixed-point-theorems-dislocated-metric-space/",
     },
     {
       id: 18,
-      year: "2015",
-      title:
-        "Common fixed point results for two pairs of maps satisfying generalized weakly contractive condition in complex valued metric spaces",
-      url: "https://dineshpanthi.science/pubs/common-fixed-point-results-for-two-pairs-of-maps-satisfying-generalized-weakly-contractive-condition-in-complex-valued-metric-spaces/",
-      type: "Journal paper",
-      authors: ["D. Panthi"],
-      citation:
-        "International Journal of Mathematical Archive, 6(12)(2015), 1-11.",
+      Title: " A Result in Dislocated Quasi Metric Space",
+      Authors: "D. Panthi and K. Jha",
+      Citation:
+        "Kathmandu University Journal of Science, Engineering and Technology, 9 (II), (2013) 22- 27.",
+      "Publication Year": "Publication year: 2013",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/result-dislocated-quasi-metric-space/",
+    },
+    {
+      id: 19,
+      Title: "Cyclic compatible contraction and related fixed point theorems",
+      Authors: "P. S. Kumari and D. Panthi",
+      Citation: "Fixed Point Theory and Applications,(28) (2016), 18 pages",
+      "Publication Year": "Publication year: 2016",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/cyclic-compatible-contraction-related-fixed-point-theorems/",
     },
     {
       id: 20,
-      year: "2013",
-      title: "Some Fixed Point Theorems in Metrically Convex Spaces",
-      url: "https://www.hindawi.com/journals/ijmms/2013/510214/",
-      type: "Journal paper",
-      authors: ["K. Jha", "D. Panthi"],
-      citation:
-        "International Journal of Mathematics and Mathematical Sciences, 2013, Article ID 510214, 5 pages.",
+      Title: " A fixed point theorem in dislocated quasi-metric space ",
+      Authors: "D Panthi, K. Jha and G. Porru",
+      Citation:
+        "American Journal of Mathematics and Statistics, 3 (3),(2013) 153-156",
+      "Publication Year": "Publication year: 2013",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/fixed-point-theorem-dislocated-quasi-metric-space/",
     },
     {
       id: 21,
-      year: "2013",
-      title:
-        "Common Fixed Point Theorems for a Pair of Weakly Compatible Mappings",
-      url: "https://doi.org/10.1155/2013/276417",
-      type: "Journal paper",
-      authors: ["K. Jha", "D. Panthi"],
-      citation: "Fixed Point Theory and Applications 2013, 2013:276",
+      Title:
+        "Connecting various types of cyclic contractions and contractive self-mappings with Hardy-Rogers self-mappings",
+      Authors: "P. S. Kumari and D. Panthi",
+      Citation: "Fixed Point Theory and Applications,(15) (2016), 19 pages",
+      "Publication Year": "Publication year: 2016",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/connecting-various-types-cyclic-contractions-contractive-self-mappings-hardy-rogers-self-mappings/",
     },
     {
       id: 22,
-      year: "2012",
-      title:
-        "A common fixed point theorem for four mappings in dislocated metric space",
-      url: "https://doi.org/10.1155/2012/569728",
-      type: "Journal paper",
-      authors: ["D. Panthi", "K. Subedi"],
-      citation: "Fixed Point Theory and Applications 2012, 2012:28",
+      Title: "A Common Fixed Point Theorem in Dislocated Metric Space",
+      Authors: "K. Jha and D.Panthi",
+      Citation: "Applied Math. Sci. 6 no. 89-92 (2012), 4497-4503",
+      "Publication Year": "Publication year: 2012",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/common-fixed-point-theorem-dislocated-metric-space/",
     },
     {
       id: 23,
-      year: "2012",
-      title:
-        "Common Fixed Point Theorems for Four Maps in Dislocated Quasi Metric Space",
-      url: "https://doi.org/10.1155/2012/714262",
-      type: "Journal paper",
-      authors: ["D. Panthi", "K. Subedi"],
-      citation: "Fixed Point Theory and Applications 2012, 2012:53",
+      Title:
+        "Common fixed point theorems for compatible mappings in dislocated metric space",
+      Authors: "D. Panthi",
+      Citation:
+        "International J. Mathematical Analysis, 9 (45),(2015), 2235- 2242",
+      "Publication Year": "Publication year: 2015",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/common-fixed-point-theorems-compatibble-mappings-dislocated-metric-space/",
     },
     {
       id: 24,
-      year: "2011",
-      title: "On Common Fixed Points of Two Maps in Fuzzy Metric Spaces",
-      url: "https://doi.org/10.1155/2011/126101",
-      type: "Journal paper",
-      authors: ["K. Jha", "D. Panthi"],
-      citation: "Fixed Point Theory and Applications 2011, 2011:126101",
+      Title:
+        "A Common Fixed Point Theorem For Four Mappings In Dislocated Quasi- Metric Space",
+      Authors: "K. Jha and K.P.R. Rao and D. Panthi",
+      Citation: "Int. J. Math. Sci. Engg. Appls. 6(1) (2012) 417-424.",
+      "Publication Year": "Publication year: 2012",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/common-fixed-point-theorem-four-mappings-dislocated-quasi-metric-space/",
     },
     {
       id: 25,
-      year: "2011",
-      title:
-        "A Common Fixed Point Theorem for Four Maps in Dislocated Metric Space",
-      url: "https://doi.org/10.1155/2011/248405",
-      type: "Journal paper",
-      authors: ["D. Panthi", "K. Subedi"],
-      citation: "Fixed Point Theory and Applications 2011, 2011:248405",
+      Title:
+        "Common fixed point theorems for mappings of compatible type(A) in dislocated metric space",
+      Authors: "Dinesh Panthi and P. Sumati Kumari",
+      Citation:
+        "Nepal Journal of Science and Technology.16 (1), (2015), 79- 86.",
+      "Publication Year": "Publication year: 2015",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/common-fixed-point-theorems-mappings-compatible-typea-dislocated-metric-space/",
     },
     {
       id: 26,
-      year: "2011",
-      title: "On Some Common Fixed Point Theorems in Dislocated Metric Space",
-      url: "https://doi.org/10.1155/2011/850173",
-      type: "Journal paper",
-      authors: ["D. Panthi", "K. Subedi"],
-      citation: "Fixed Point Theory and Applications 2011, 2011:850173",
+      Title:
+        "A Common Fixed Point Theorem for Two mappings in Dislocated Metric Space",
+      Authors: "K. Jha and D.Panthi",
+      Citation: "Yeti J. Math., 1 (1),(2012),30-34",
+      "Publication Year": "Publication year: 2012",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/common-fixed-point-theorem-two-mappings-dislocated-metric-space/",
     },
     {
       id: 27,
-      year: "2019",
-      title:
-        "Fixed Point Theorems for Asymptotic Generalized Contraction Mappings in Dislocated Metric Spaces",
-      url: "https://link.springer.com/article/10.1007/s00009-019-1367-9",
-      type: "Journal paper",
-      authors: ["A. Azam", "M. Arshad", "D. Panthi"],
-      citation: "Results in Mathematics, 74 (2019), 39.",
+      Title: "A spiritual fixed point theorem",
+      Authors: "D. Panthi",
+      Citation:
+        "International J. Statistics and Applied Mathematics, 2(5)(2017), 01-04.",
+      "Publication Year": "Publication year: 2018",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/spiritual-fixed-point-theorem/",
     },
     {
       id: 28,
-      year: "2020",
-      title:
-        "Common Fixed Point Results for Six Mappings in Dislocated Metric Spaces",
-      url: "https://link.springer.com/article/10.1007/s40819-020-00802-5",
-      type: "Journal paper",
-      authors: ["D. Panthi", "P. Sumati Kumari"],
-      citation: "Acta Mathematica Scientia, 40 (2020), 887-902.",
+      Title:
+        "A Common Fixed Point of Weakly Compatible Mappings in Dislocated Metric Space",
+      Authors: "D. Panthi and K. Jha",
+      Citation: "Kath. Univ. J. Sci. Engg. Tech.,8(2) (2012), 25-30",
+      "Publication Year": "Publication year: 2018",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/common-fixed-point-weakly-compatible-mappings-dislocated-metric-space/",
     },
     {
       id: 29,
-      year: "2020",
-      title:
-        "Coincidence and Common Fixed Point Results for Compatible Mappings in Dislocated Metric Spaces",
-      url: "https://link.springer.com/article/10.1007/s13370-020-00818-y",
-      type: "Journal paper",
-      authors: ["D. Panthi", "S. Bhattarai"],
-      citation: "Journal of Inequalities and Applications, 2020 (2020), 325.",
+      Title: "A short survey on fixed point results and applications",
+      Authors: "D. Panthi and Pavan K. Jha",
+      Citation: "",
+      "Publication Year": "Publication year: 2017",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/short-survey-fixed-point-results-applications/",
     },
     {
       id: 30,
-      year: "2021",
-      title:
-        "Common Fixed Point Results for Four Mappings in Dislocated Quasi-Metric Spaces",
-      url: "https://www.hindawi.com/journals/ijmms/2021/9941703/",
-      type: "Journal paper",
-      authors: ["D. Panthi", "K. Jha"],
-      citation:
-        "International Journal of Mathematics and Mathematical Sciences, 2021 (2021), 9941703.",
+      Title: "On Developments of Meir-Keeler Type Fixed Point Theorems",
+      Authors: "K. Jha and K.P.R. Rao and D. Panthi:",
+      Citation: "Nepal. J. Sci. Tech., 10 (2009), 141 - 147",
+      "Publication Year": "Publication year: 2009",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/developments-meir-keeler-type-fixed-point-theorems/",
     },
     {
       id: 31,
-      year: "2021",
-      title:
-        "Fixed Point Results for Cyclic Contraction in Non-Archimedean Fuzzy Metric Spaces",
-      url: "https://www.hindawi.com/journals/jfs/2021/9992382/",
-      type: "Journal paper",
-      authors: ["D. Panthi", "K. Jha", "B. P. Dolai"],
-      citation: "Journal of Function Spaces, 2021 (2021), 9992382.",
+      Title:
+        "Cyclic contractions and fixed point theorems on various generating spaces",
+      Authors: "P. S. Kumari and D. Panthi",
+      Citation: "Fixed Point Theory and Applications,1 (2015), 17 pages.",
+      "Publication Year": "Publication year: 2015",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/cyclic-contractions-fixed-point-theorems-various-generating-spaces/",
+    },
+    {
+      id: 32,
+      Title:
+        "A Study on Teaching Applicable Mathematics in the Universities of Nepal",
+      Authors: "D. Panthi, R. Basnet and K. Jha",
+      Citation:
+        "Kath. Univ. J. Sci., Engg. Tech. (KUSET) 4(I), (2008), 86 - 94.",
+      "Publication Year": "Publication year: 2008",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/study-teaching-applicable-mathematics-universities-nepal/",
+    },
+    {
+      id: 33,
+      Title:
+        "A common fixed point theorem for two pairs of mappings in dislocated metric space",
+      Authors: "D. Panthi, K Jha, P.K. Jha and P.S. Kumari",
+      Citation:
+        "American Journal of Computational mathematics, 5(2)(2015), 106-112",
+      "Publication Year": "Publication year: 2015",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/common-fixed-point-theorem-two-pairs-mappings-dislocated-metric-space/",
+    },
+    {
+      id: 34,
+      Title:
+        "Some Sequence Spaces and Matrix Transformations with Vedic Relations",
+      Authors: "S. Ray, D. Panthi, K. Jha and S.K. Mishra",
+      Citation:
+        "International J. of Math. Sci. Engg. Appls , 11(II)(2017), 207-212",
+      "Publication Year": "Publication year: 2017",
+      "Publication Type": "Journal paper",
+      url: "https://dineshpanthi.science/pubs/sequence-spaces-matrix-transformations-vedic-relations/",
     },
   ];
-  return publications;
+  return journals;
+}
+
+export function booksData() {
+  const books = [
+    {
+      id: 1,
+      Title:
+        "Fixed Point Results in Dislocated and Dislocated Quasi Metric Spaces",
+      Authors: "Dinesh Panthi",
+      Citation: " LAP LAMBERT Academic Publishing, Germany",
+      "Publication Year": "Publication year: 2013",
+      "Publication Type": "Book",
+      url: "https://dineshpanthi.science/pubs/fixed-point-results-dislocated-dislocated-quasi-metric-spaces/",
+    },
+    {
+      id: 2,
+      Title:
+        "Some Meir- Keeler and Integral Type Fixed Point Theorems in Dislocated Metric Spaces",
+      Authors: "Dinesh Panthi",
+      Citation: "Sara Book Publication, India",
+      "Publication Year": "Publication year: 2017",
+      "Publication Type": "Book",
+      url: "https://dineshpanthi.science/pubs/meir-keeler-integral-type-fixed-point-theorems-dislocated-metric-spaces/",
+    },
+    {
+      id: 3,
+      Title: "Sushila Khandakabya ( Poetry)",
+      Authors: "Dinesh Panthi",
+      Citation: "Bhattarai Badhu Prakashan, Nepal",
+      "Publication Year": "Publication year: 1984",
+      "Publication Type": "Book",
+      url: "https://dineshpanthi.science/pubs/sushila-khandakabya-poetry/",
+    },
+  ];
+  return books;
+}
+
+export function conferencePaper() {
+  const papers = [
+    {
+      id: 1,
+      Title: "Dislocated Quasi Metric Space and Fixed Point Theorems",
+      Authors: "D. Panthi and K. Jha",
+      Citation: "Proceedings of National Conference of Mathematics (NCM 2012) ",
+      "Publication Year": "Publication year: 2012",
+      "Publication Type": "Conference paper",
+      url: "https://dineshpanthi.science/pubs/dislocated-quasi-metric-space-fixed-point-theorems/",
+    },
+    {
+      id: 2,
+      Title:
+        "A Study on Meir-Keeler type contractive condition and asymptotic contraction",
+      Authors: "D. Panthi and K. Jha",
+      Citation:
+        " Proceedings of National Conference of Mathematics (NCM 2010), 83-88",
+      "Publication Year": "Publication year: 2010",
+      "Publication Type": "Conference paper",
+      url: "https://dineshpanthi.science/pubs/study-meir-keeler-type-contractive-condition-asymptotic-contraction/",
+    },
+    {
+      id: 3,
+      Title:
+        "On Development of Fixed Point theorems of dislocated metric Space",
+      Authors: "D. Panthi",
+      Citation:
+        "Proceedings of National Conference of Mathematics (NCM 2014) ,1-7",
+      "Publication Year": "Publication year: 2014",
+      "Publication Type": "Conference paper",
+      url: "https://dineshpanthi.science/pubs/development-fixed-point-theorems-dislocated-metric-space/",
+    },
+  ];
+  return papers;
 }
