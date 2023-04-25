@@ -1,5 +1,5 @@
 import { journalsData } from "./publicationData";
-import "./journal.css";
+import "./publication.css";
 
 const Journals = () => {
   const journals = journalsData();
