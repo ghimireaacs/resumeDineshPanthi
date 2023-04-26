@@ -9,6 +9,9 @@ import Education from "./components/Home/Education";
 import Honors from "./components/Home/Honor";
 import Publication from "./components/Publications/Publication";
 import Conference from "./components/Publications/Conference";
+import Responsibilities from "./components/Publications/Responsibilities";
+import Students from "./components/Publications/Students";
+import Researches from "./components/Publications/Research";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -29,5 +32,11 @@ root.render(
     <Publication />
     <hr />
     <Conference />
+    <hr />
+    <Responsibilities />
+    <hr />
+    <Students />
+    <hr />
+    <Researches />
   </React.StrictMode>
 );
