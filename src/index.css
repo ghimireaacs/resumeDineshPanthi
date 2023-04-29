@@ -22,17 +22,28 @@ code {
 }
 
 .profileIndex{
-  background-color: red;
   display: flex;
-  flex-flow: row nowrap;
+  flex-wrap: wrap;
   justify-content: center;
-  align-content: space-between;
-  position: relative;
+  position: absolute;
+  float: left;
+  width: 30%;
+  margin-top: 4%;
+  height: 68%;
+  align-items: center;
 
 }
-.introHome{
-  background-color: aqua;
-  position: relative;
-  flex-grow: 1;
-  height: 80%;
+
+
+.introIndex{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  float: right;
+  margin-top: 4%;
+  width: 60%;
+  margin-right: 5%;
+  line-height: 180%;
+  /* background-color: antiquewhite; */
+  
 }
