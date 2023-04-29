@@ -3,6 +3,7 @@ import { Link, Route, Routes } from "react-router-dom";
 import "./Layout.css";
 import { Blog } from "../../pages/Blog";
 import { Home } from "../../pages/Home";
+import Journals from "../../pages/Publication";
 // import logo from './logo.svg';
 
 const Navbar = () => {
@@ -37,7 +38,7 @@ const Navbar = () => {
           <div class="navbar-menu-right">
             <ul class="nav-top-right">
               <li>
-                <Link to="/" class="home-nav">
+                <Link to="/publication" class="home-nav">
                   PUBLICATIONS
                 </Link>
               </li>
@@ -63,6 +64,7 @@ const Navbar = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/publication" element={<Journals />} />
       </Routes>
     </>
   );

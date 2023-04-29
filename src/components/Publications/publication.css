@@ -1,0 +1,16 @@
+.journal{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /* background-color: red; */
+    align-items: center;
+    
+}
+.journal-title{
+    color: red;
+    font-size: 32px;
+    background-color: aliceblue;
+}
+
