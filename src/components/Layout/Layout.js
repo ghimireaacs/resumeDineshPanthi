@@ -4,6 +4,7 @@ import "./Layout.css";
 import { Blog } from "../../pages/Blog";
 import { Home } from "../../pages/Home";
 import Journals from "../../pages/Publication";
+import Responsibilities from "../../pages/Responsibilities";
 // import logo from './logo.svg';
 
 const Navbar = () => {
@@ -43,7 +44,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/blog" class="home-nav">
+                <Link to="/responsibilities" class="home-nav">
                   RESPONSIBILITIES
                 </Link>
               </li>
@@ -65,6 +66,7 @@ const Navbar = () => {
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/publication" element={<Journals />} />
+        <Route path="/responsibilities" element={<Responsibilities />} />
       </Routes>
     </>
   );
