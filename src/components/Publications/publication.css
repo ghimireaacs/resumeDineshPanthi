@@ -14,3 +14,27 @@
     background-color: aliceblue;
 }
 
+.conference{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+
+}
+.conference-title{
+    color: aqua;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.1em;
+    border-color: white;
+}
+.header-conference{
+    background-color: gray;
+    margin: 12px;
+}
+
+.desc-conf{
+    width: 80%;
+    background-color: rgb(87, 84, 84);
+}

@@ -5,6 +5,7 @@ import { Blog } from "../../pages/Blog";
 import { Home } from "../../pages/Home";
 import Journals from "../../pages/Publication";
 import Responsibilities from "../../pages/Responsibilities";
+import Conferences from "../../pages/Seminars";
 // import logo from './logo.svg';
 
 const Navbar = () => {
@@ -49,7 +50,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/contact" class="home-nav">
+                <Link to="/seminars" class="home-nav">
                   SEMINARS
                 </Link>
               </li>
@@ -67,6 +68,7 @@ const Navbar = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/publication" element={<Journals />} />
         <Route path="/responsibilities" element={<Responsibilities />} />
+        <Route path="/seminars" element={<Conferences />} />
       </Routes>
     </>
   );

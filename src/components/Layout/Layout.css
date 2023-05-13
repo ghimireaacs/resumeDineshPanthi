@@ -28,9 +28,9 @@
   align-items: center;
   border-radius: 5px;
 }
-.navbar-top:hover{
+/* .navbar-top:hover{
   background-image: linear-gradient( rgba(255,255,255,1),rgb(44, 169, 194));
-}
+} */
 /* LEFT SIDE */
 .navbar-menu-left{
   /* background-color: green; */

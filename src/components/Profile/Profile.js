@@ -11,7 +11,7 @@ const Profile = () => {
           </div>
         </div>
         <div className="titles">
-          <p>Dinesh Panthi</p>
+          <p className="namee">Dinesh Panthi</p>
           <p>Associate Professor</p>
         </div>
         <div className="university">
